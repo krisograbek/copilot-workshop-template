@@ -12,7 +12,7 @@ Szkielet projektu na warsztat z GitHub Copilot. Aplikacja typu Task Manager — 
 ### 1. Sklonuj repozytorium
 
 ```bash
-git clone <url-repo>
+git clone https://github.com/krisograbek/copilot-workshop-template.git
 cd copilot-warsztat
 ```
 
