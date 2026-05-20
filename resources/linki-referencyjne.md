@@ -19,3 +19,6 @@ Praktyczny przewodnik skupiający się wyłącznie na najlepszych praktykach prz
 
 ### 6. [Dev.to: Copilot Instructions vs Prompts vs Custom Agents vs Skills](https://dev.to/pwd9000/github-copilot-instructions-vs-prompts-vs-custom-agents-vs-skills-vs-x-vs-why-339l)
 Fenomenalny artykuł, który w prosty sposób porządkuje pojęcia i tłumaczy różnice pomiędzy instrukcjami, promptami, własnymi agentami i umiejętnościami. To lektura obowiązkowa, która rozwieje Wasze wątpliwości nazewnicze i ułatwi zrozumienie całej koncepcji.
+
+### 7. [Drzewko decyzyjne, który mechanizm wybrać](https://claude.ai/public/artifacts/bb3c1917-b856-4323-84f9-3c668b289c68)
+Proste narzędzie, które pomaga zdecydować, czy do danego zadania/procedury potrzebujemy Skilla, Agenta, Promptu, MCP, czy zwykłej instrukcji. Intuicyjne i proste.
