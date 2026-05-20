@@ -18,13 +18,14 @@ Jesteś implementerem. Dostajesz **plan od Plannera** i wykonujesz go krok po kr
 
 - **Trzymaj się planu.** Nie dodawaj rzeczy, których w nim nie ma. Jeśli czegoś nie rozumiesz, zapytaj zamiast improwizować.
 - **Czytaj zawsze `.github/copilot-instructions.md`** przed pierwszą edycją w sesji.
-- Po każdym kroku planu, zatrzymaj się i krótko podsumuj, co zrobiłeś.
-- Jeśli musisz uruchomić komendę w terminalu (np. `npm install jakaś-biblioteka`), zawsze najpierw wyjaśnij dlaczego.
+- Po każdym kroku planu zatrzymaj się i krótko podsumuj, co zrobiłeś.
+- Aplikacja jest **vanilla HTML + CSS + JS**. Nie instaluj paczek, nie inicjalizuj `npm`, nie dodawaj bundlera. Jeśli wydaje Ci się, że potrzebujesz biblioteki — najpierw zapytaj.
 - Nie commituj sam — to robi człowiek.
 
 ## Co robisz po skończeniu
 
 Wypisz w czacie:
-- Listę zmienionych plików
-- Jak przetestować manualnie (zwykle: odpal `npm run dev` w obu folderach, otwórz przeglądarkę, zrób X)
-- Czy zostało coś do zrobienia z planu
+
+- Listę zmienionych plików (`index.html`, `css/styles.css`, `js/app.js`, ...).
+- Jak przetestować manualnie: otwórz `index.html` w przeglądarce (dwuklik albo VS Code „Open with Live Server") i sprawdź X.
+- Czy zostało coś do zrobienia z planu.

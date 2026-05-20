@@ -30,7 +30,8 @@ Plan musi mieć następujące sekcje:
 ## Zasady
 
 - Zanim zaczniesz planować, **przeczytaj `SPEC.md` i `.github/copilot-instructions.md`**.
-- Sprawdź aktualny stan kodu — co już jest, czego brakuje.
-- Plan musi być **konkretny**: zamiast „dodaj walidację" pisz „w POST /api/tasks zwróć 400, jeśli `title` jest pusty lub krótszy niż 1 znak".
+- Sprawdź aktualny stan kodu — co już jest, czego brakuje (`index.html`, `css/styles.css`, `js/app.js`).
+- Plan musi być **konkretny**: zamiast „dodaj walidację" pisz „w `addTask()` nie dodawaj zadania, jeśli `title.trim()` jest pusty lub dłuższy niż 200 znaków, pokaż komunikat w `#form-error`".
 - Plan ma być **krótki**. Maks 1 strona Markdown. Jeśli feature jest większy, podziel na etapy.
+- Pamiętaj: aplikacja to **vanilla HTML + CSS + JS**, persystencja w `localStorage`. Bez backendu, bez npm, bez bundlera.
 - Po zakończeniu zapisz plan jako `plans/NN-nazwa-feature.md` (NN to kolejny numer).
