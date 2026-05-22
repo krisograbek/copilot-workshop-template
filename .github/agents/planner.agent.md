@@ -29,9 +29,10 @@ Plan musi mieć następujące sekcje:
 
 ## Zasady
 
-- Zanim zaczniesz planować, **przeczytaj `SPEC.md` i `.github/copilot-instructions.md`**.
-- Sprawdź aktualny stan kodu — co już jest, czego brakuje (`index.html`, `css/styles.css`, `js/app.js`).
+- **Pracujesz w jednym folderze aplikacji** — tym, w którym leży `SPEC.md` (np. `aplikacje/licznik/`). Jeśli nie wiesz który, zapytaj. Wszystkie ścieżki w planie są względne do TEGO folderu, nie do katalogu głównego repo.
+- Zanim zaczniesz planować, **przeczytaj `SPEC.md` z folderu aplikacji i `.github/copilot-instructions.md`**.
+- Sprawdź aktualny stan folderu aplikacji — co już jest, czego brakuje (`index.html`, `css/styles.css`, `js/app.js`). Na starcie folder może zawierać tylko `SPEC.md` — wtedy planujesz budowę od zera.
 - Plan musi być **konkretny**: zamiast „dodaj walidację" pisz „w `addTask()` nie dodawaj zadania, jeśli `title.trim()` jest pusty lub dłuższy niż 200 znaków, pokaż komunikat w `#form-error`".
 - Plan ma być **krótki**. Maks 1 strona Markdown. Jeśli feature jest większy, podziel na etapy.
 - Pamiętaj: aplikacja to **vanilla HTML + CSS + JS**, persystencja w `localStorage`. Bez backendu, bez npm, bez bundlera.
-- Po zakończeniu zapisz plan jako `plans/NN-nazwa-feature.md` (NN to kolejny numer).
+- Po zakończeniu zapisz plan **wewnątrz folderu aplikacji** jako `plans/NN-nazwa-feature.md` (np. `aplikacje/licznik/plans/01-budowa.md`; NN to kolejny numer).

@@ -27,7 +27,7 @@ Zadanie to obiekt:
 - Odczyt: `JSON.parse(localStorage.getItem("tasks") ?? "[]")`.
 - Brak serwera, brak fetch, brak API.
 
-## Struktura plików
+## Struktura plików (w folderze aplikacji)
 
 ```text
 index.html         ← struktura strony, ładuje css/ i js/

@@ -1,4 +1,4 @@
-# Konwencje projektu Task Manager
+# Konwencje projektu
 
 To prosta aplikacja webowa używana na warsztacie. Najważniejsze: **prostota i czytelność**.
 
@@ -6,17 +6,24 @@ To prosta aplikacja webowa używana na warsztacie. Najważniejsze: **prostota i 
 
 - **Vanilla HTML + CSS + JavaScript.** Żadnego Reacta, Vue, Vite, Webpacka, Node.js, npm.
 - Brak bundlera, brak build stepu. Otwierasz `index.html` w przeglądarce i działa.
-- Persystencja: `localStorage` (klucz `"tasks"`, wartość — JSON-owa tablica obiektów).
+- Persystencja: `localStorage` (np. klucz `"tasks"`, wartość — JSON-owa tablica obiektów).
 - Brak TypeScriptu, brak bazy danych, brak backendu, brak autoryzacji.
 
-## Struktura repo
+## Gdzie pracujesz — jedna aplikacja = jeden folder
+
+Każda aplikacja mieszka w **osobnym folderze** w `aplikacje/` (np. `aplikacje/licznik/`, `aplikacje/notatnik/`). Folder aplikacji zawiera swój `SPEC.md` i cały swój kod.
+
+**Folder aplikacji = folder, w którym leży `SPEC.md`, na którym pracujesz.** Wszystkie pliki twórz **w tym folderze**, nigdy w katalogu głównym repo.
 
 ```text
-index.html         ← struktura strony, ładuje css/ i js/
-css/styles.css     ← cały styling
-js/app.js          ← cała logika (stan, render, eventy)
-SPEC.md            ← specyfikacja aplikacji
+aplikacje/<nazwa>/
+├── SPEC.md            ← specyfikacja TEJ aplikacji
+├── index.html         ← struktura strony, ładuje css/ i js/
+├── css/styles.css     ← cały styling
+└── js/app.js          ← cała logika (stan, render, eventy)
 ```
+
+Ścieżki w `index.html` są względne do folderu aplikacji (`href="css/styles.css"`, `src="js/app.js"`).
 
 ## Zasady
 
